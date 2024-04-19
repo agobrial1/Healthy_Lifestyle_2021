@@ -6,7 +6,7 @@ import pandas as pd
 from werkzeug.urls import url_quote_plus
 
 # Load your cleaned dataset
-df = pd.read_csv('../../pythonProject/data/healthy_lifestyle_city_2021_with_coords.csv')
+df = pd.read_csv('/data/healthy_lifestyle_city_2021_with_coords.csv')
 
 app = dash.Dash(__name__)
 server = app.server
