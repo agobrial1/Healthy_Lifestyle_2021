@@ -3,6 +3,7 @@ from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 import plotly.express as px
 import pandas as pd
+from werkzeug.urls import url_quote_plus
 
 # Load your cleaned dataset
 df = pd.read_csv('../../pythonProject/data/healthy_lifestyle_city_2021_with_coords.csv')
